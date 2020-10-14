@@ -1,0 +1,56 @@
+﻿@{
+    ViewBag.Title = "Servidores Inativos";
+}
+<h2>@ViewBag.Title</h2>
+<!--<h3>@ViewBag.Message</h3>-->
+
+
+
+<input id="ano" placeholder="Ano" />
+
+
+
+<pre>
+<code id="valor">
+    </code>>    
+</pre>
+
+
+
+<div>
+    <label id="Carregando" style=" color: green;" hidden>Carregando...</label>
+</div>
+
+<button onclick="Carregar()">Carregar</button>
+<script>
+    function Carregar() {
+
+        $('#Carregando').toggle();
+
+        $.ajax({
+            type: 'get',
+            dataType: 'json',
+            cache: false,
+            url: '/Home/SearchApiTransParenciaAl',
+            data: {
+                key: 3, ano: $("#ano").val()
+            },
+
+            success: function (response, textStatus) {
+
+                $('#Carregando').hide();
+                if (response.success) {
+                    $("#valor").text(response.value);
+
+                }
+                else {
+                    alert('Erro: ' + response.erro);
+                }
+
+            }
+        });
+    }
+
+</script>
+
+

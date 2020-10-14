@@ -1,0 +1,36 @@
+﻿@{
+    ViewBag.Title = "Licitações";
+}
+    <h2>@ViewBag.Title</h2>
+<pre>
+    <code id="valor">
+    </code>>    
+</pre>
+
+<label id="Carregando" style="color:green;">Carregando...</label>
+
+
+<script>
+    $.ajax({
+        type: 'get',
+        dataType: 'json',
+        cache: false,
+        url: '/Home/SearchApiTransParenciaAl',
+        data: { key: 1, ano: 0 },
+
+        success: function (response, textStatus) {
+
+            $('#Carregando').hide();
+            if (response.success) {
+               
+                $("#valor").text(response.value);
+
+            }
+            else {
+                alert('Erro: ' + response.erro);
+            }
+
+        }
+    });
+
+</script>
