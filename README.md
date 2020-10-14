@@ -19,12 +19,12 @@ Views/Home:
 - ServidoresInativos
 
 
-### - Pagina Inicial (Licitações)
+## - Pagina Inicial (Licitações)
 ![alt text](https://github.com/fellipespfc/aspnetMcvWithApi/blob/main/Fotos/1.JPG)
 
 ### - Pagina Servidores Inativos, filtro por Ano, carregando Dados - chamada de Api (Back-End)
 ![alt text](https://github.com/fellipespfc/aspnetMcvWithApi/blob/main/Fotos/2.jpg)
 
-### - Pagina Servidores Inativos, dados Carregados
+## - Pagina Servidores Inativos, dados Carregados
 ![alt text](https://github.com/fellipespfc/aspnetMcvWithApi/blob/main/Fotos/3.JPG)
 
