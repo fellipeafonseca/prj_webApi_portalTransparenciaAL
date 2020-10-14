@@ -7,7 +7,10 @@ Para Executção do Projeto, basta abrir o Software no programa Visual Studio e 
 
 Pasta de Controllers do Projetos
  - Controllers/HomeController
-
+ 
+ Nome do Método de consumo de API
+ - http://transparencia.al.gov.br/portal/api/
+ - SearchApiTransParenciaAl
 
 Views/Home
 - Licitacoes
