@@ -3,7 +3,7 @@ Aplicação Asp.Net MVC consumindo uma API
 
 Aplicação Web ASP.NET MVC para consumo da Api http://transparencia.al.gov.br/portal/api/
 
-Para Executção do Projeto, basta clonar o diretório e abrir o programa Visual Studio e Executar.
+Para Executção do Projeto, basta clonar o diretório e abrir o programa Visual Studio para Executar o arquivo "infiniti-challenge.sln".
 
 
 Pasta de Controllers do Projetos:
