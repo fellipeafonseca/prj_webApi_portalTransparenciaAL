@@ -1,10 +1,8 @@
 # aspnetMcvWithApi
-Aplicação Asp.Net MVC consumindo uma API
+Projeto de aplicação Web (Asp.Net MVC) para consumo de API para consulta no portal da transparência do estado de Alagoas.
+A aplicação coleta e filtra informações refente as licitações, servidores ativos e inativos do estado. 
 
-Aplicação Web ASP.NET MVC para consumo da Api http://transparencia.al.gov.br/portal/api/
-
-Para Executção do Projeto, basta clonar o diretório e abrir o programa Visual Studio para Executar o arquivo "infiniti-challenge.sln".
-
+Link Api: http://transparencia.al.gov.br/portal/api/
 
 Pasta de Controllers do Projetos:
  - Controllers/HomeController
